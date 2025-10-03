@@ -72,7 +72,7 @@ class ProductScreen extends StatelessWidget {
                   ),
                 ),
                 Positioned(
-                  bottom: 450.h,
+                  bottom: 472.h,
                   left: 22.w,
                   right: 22.w,
                   child: _getFloatingContainer(productData),
@@ -80,7 +80,7 @@ class ProductScreen extends StatelessWidget {
                 Positioned(
                   bottom: 0,
                   child: Container(
-                    height: 430.h,
+                    height: 460.h,
                     width: 390.w,
                     decoration: BoxDecoration(
                       color: Palette.white,
