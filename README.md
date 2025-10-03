@@ -2,10 +2,12 @@
 
 A simple and modern Coffee App UI built with **Flutter**, using the **MVC architecture** and **GetX**.
 
+
 including 3 pages from the design reference :
 - **Start Page** – Intro screen + branding
 - **Home Page** – Main screen with categories and coffees
 - **Product Page** – Detailed view of the selected coffee
+
 
 
 ## 🛠️ Features from GetX Package
@@ -15,16 +17,19 @@ including 3 pages from the design reference :
 - Dependency Injection
 
 
+
 ## 🎬 Demo
 <p align="center">
   <img src="demo/Coffee_App_Demo.gif" width="600"/>
 </p>
 
 
+
 ## 🎨 Design Reference
 <p align="center">
   <img src="assets/design/design-reference.jpg" width="600"/>
 </p>
+
 
 
 ### Installation
@@ -34,6 +39,7 @@ cd coffee_app_ui
 flutter pub get
 flutter run
 ```
+
 
 ### Getting Started
 
