@@ -17,13 +17,13 @@ including 3 pages from the design reference :
 
 ## 🎬 Demo
 <p align="center">
-  <img src="demo/Coffee_App_Demo.gif" width="300"/>
+  <img src="demo/Coffee_App_Demo.gif" width="1000"/>
 </p>
 
 
 ## 🎨 Design Reference
 <p align="center">
-  <img src="assets/design-reference.jpg" width="400"/>
+  <img src="assets/design/design-reference.jpg" width="1000"/>
 </p>
 
 
