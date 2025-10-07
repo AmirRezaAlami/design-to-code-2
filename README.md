@@ -34,7 +34,7 @@ including 3 pages from the design reference :
 
 ### Installation
 ```bash
-git clone https://github.com/yourusername/coffee_app_ui.git
+git clone https://github.com/AmirRezaAlami/design-to-code-2.git
 cd coffee_app_ui
 flutter pub get
 flutter run
