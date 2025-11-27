@@ -34,8 +34,8 @@ class HomeScreen extends StatelessWidget {
   }
 
   Widget _getBody(CategoryController categoryController) {
-    return SingleChildScrollView(
-      child: SafeArea(
+    return SafeArea(
+      child: SingleChildScrollView(
         child: Padding(
           padding: EdgeInsets.symmetric(horizontal: 25.w),
           child: Column(
