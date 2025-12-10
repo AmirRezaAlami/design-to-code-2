@@ -1,20 +1,24 @@
-# ☕ Coffee App UI
+# ☕ Coffee Shop App UI
 
-A simple and modern Coffee App UI built with **Flutter**, using the **MVC architecture** and **GetX**.
+The second project in the **Design-To-Code** series.  
+A minimalistic **3-page Flutter application** developed straight from a design reference, for mobile platform.
 
+---
 
-including 3 pages from the design reference :
-- **Start Page** – Intro screen + branding
-- **Home Page** – Main screen with categories and coffees
+## 🔎 Tech Highlights
+- Architecture: **MVC**
+- State Management: GetX
+- Dependency Injection: GetX DI
+- Navigation: GetX Routing
+
+---
+
+## 🚀 Features
+- **Start Page** – Intro screen + branding title
+- **Home Page** – Main screen, with categories and coffee lists
 - **Product Page** – Detailed view of the selected coffee
 
-
-
-## 🛠️ Features from GetX Package
-
-- Navigation and Routing  
-- State Management 
-- Dependency Injection
+---
 
 
 
