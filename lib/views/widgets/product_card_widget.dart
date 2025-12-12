@@ -33,7 +33,7 @@ class ProductCardWidget extends StatelessWidget {
         );
       },
       child: Container(
-        height: 250.h,
+        height: 240.h,
         width: 155.w,
         decoration: BoxDecoration(
           color: Palette.white,
@@ -51,7 +51,8 @@ class ProductCardWidget extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.start,
           children: [
             Padding(
-              padding: EdgeInsets.all(12.r),
+              padding:
+                  EdgeInsets.only(top: 15, left: 15, right: 15, bottom: 10).r,
               child: AspectRatio(
                 aspectRatio: 1,
                 child: ClipRRect(

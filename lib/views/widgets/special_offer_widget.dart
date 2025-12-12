@@ -30,7 +30,7 @@ class SpecialOfferWidget extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
             Padding(
-              padding: EdgeInsets.all(10.r),
+              padding: EdgeInsets.all(15.r),
               child: AspectRatio(
                 aspectRatio: 1,
                 child: ClipRRect(
