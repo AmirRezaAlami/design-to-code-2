@@ -37,16 +37,16 @@ class HomeScreen extends StatelessWidget {
     return SafeArea(
       child: SingleChildScrollView(
         child: Padding(
-          padding: EdgeInsets.symmetric(horizontal: 25.w),
+          padding: EdgeInsets.symmetric(horizontal: 25.r),
           child: Column(
             children: [
-              SizedBox(height: 30.h),
+              SizedBox(height: 25.r),
               _getHeader(),
               SizedBox(height: 15.h),
               _getSearchBar(),
-              SizedBox(height: 25.h),
+              SizedBox(height: 20.h),
               _getMenu(categoryController),
-              SizedBox(height: 25.h),
+              SizedBox(height: 15.h),
               _getSpecialOffer(),
             ],
           ),
@@ -165,9 +165,9 @@ class HomeScreen extends StatelessWidget {
             fontWeight: FontWeight.bold,
           ),
         ),
-        SizedBox(height: 12.h),
+        SizedBox(height: 10.h),
         _categoriesRow(categoryController),
-        SizedBox(height: 28.h),
+        SizedBox(height: 25.h),
         _productsList(categoryController),
       ],
     );
@@ -268,7 +268,7 @@ class HomeScreen extends StatelessWidget {
       about: '-',
     );
     return Padding(
-      padding: EdgeInsets.only(bottom: 20.h),
+      padding: EdgeInsets.only(bottom: 25.h),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
